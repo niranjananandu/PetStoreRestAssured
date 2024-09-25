@@ -61,7 +61,6 @@ public class UserEndpoints {
 				.contentType("application/json")
 				.accept("application/json")
 				.body(payload)
-				.log().all()
 				
 				.when()
 				.post(Routes.create_user_with_List);
